@@ -20,7 +20,7 @@ Then:
     $ foreman run bundle exec rake mailchimp:templates:pull
     Writing template my_template.html.haml
     Writing template another_damn_template..html.haml
-    $ echo "%h1 Hello, world" > some_new_template.html.haml
+    $ echo "%h1 Hello, world" > templates/some_new_template.html.haml
     $ foreman run bundle exec rake mailchimp:templates:push
 
 Check at your [Templates](https://us2.admin.mailchimp.com/templates/). There should be a new template called "some new template". Bingo bango bongo.
