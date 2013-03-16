@@ -1,3 +1,4 @@
+require 'haml'
 require 'html2haml'
 
 module Mailchimp
