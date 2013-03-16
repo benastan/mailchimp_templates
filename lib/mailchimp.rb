@@ -1,5 +1,6 @@
-require './lib/mailchimp/configuration.rb'
-require './lib/mailchimp/template.rb'
+require 'gibbon'
+require 'mailchimp/configuration'
+require 'mailchimp/template'
 
 module Mailchimp
   @config = Configuration.new

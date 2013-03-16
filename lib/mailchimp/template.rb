@@ -1,3 +1,5 @@
+require 'html2haml'
+
 module Mailchimp
   class Template
     @extension = '.html'
